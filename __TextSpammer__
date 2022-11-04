@@ -1,0 +1,8 @@
+#to use replace "text" with what you wanna say and click onto any text field on your pc
+
+import pyautogui
+score = 0
+while True:
+    pyautogui.typewrite("text " + str(score))
+    pyautogui.press("enter")
+    score += 1
